@@ -79,8 +79,12 @@ section{
     top: 120%;
     left: 40%;
 }
-
-
+.botones img{
+    border-radius: 30%;
+}
+.botones img:hover{
+    transform: scale(2)
+}
 .botones a{
     color: red;
 }
@@ -120,6 +124,10 @@ section{
 }
 .pie img{
     border-radius: 30%;
+
+}
+.pie img:hover{
+    transform: scale(2)
 }
 
 .pie{
@@ -153,9 +161,9 @@ section{
 
 .pieMenuList img{
     display: flex;
-    position: absolute;
+    position: relative;
     top: 10%;
-    left: 9.8%;
+    left: 2%;
 }
 
 .cv{
@@ -189,9 +197,9 @@ section{
     font-family: fantasy;
     color:red;
     position: absolute;
-    top: 95%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 10%;
+    left: 15%;
+    transform: translate(-50%, -300%);
 
 }
 .sublimables img{
