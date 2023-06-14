@@ -80,7 +80,7 @@ section{
     left: 40%;
 }
 .botones img{
-    border-radius: 30%;
+    border-radius: 30%; 
 }
 .botones img:hover{
     transform: scale(2)
