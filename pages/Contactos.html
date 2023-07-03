@@ -22,45 +22,49 @@
         </nav>
         </div>
     </header>
-    <main>
-    <div>
+    <main class="contactos">
+    <div class="contactos1">
     <h1 class="Contactosh1">¿Queres comunicarte con nosotros?</h1>
     <img class="contactosimg" src="../multimedia/imagenes/contactos.jpg" alt="">
     </div>
 
 <div class="contactosmedios">
-    <a href="mailto:skullgrafica@gmail.com">Nuestro e-mail</a>
-    <a href="https://wa.me/5493329534825?text=Hola, necesito que un asesor se comunique conmigo" target="_blank">Whatsapp</a>
-    <section>
+    <a href="mailto:skullgrafica@gmail.com"><img src="../multimedia/imagenes/email.png" width="50" height="50" alt="sobre representando un email"></a>
+    <h4 class="email">E-mail</h4>
+    <a href="https://wa.me/5493329534825?text=Hola, necesito que un asesor se comunique conmigo" target="_blank"><img src="../multimedia/imagenes/whatsapp.png" width="50" height="50" alt="icono de whatsapp"></a>
+    <h4 class="whatsapp">Whatsapp</h4>
+</div>
+    <section class="sectionbox">
+        <div class="box">
     <h3>
         DEJANOS TU CONSULTA
     </h3>
-    <form class="Enviarm">
-        <input type="text" placeholder="Nombre">
-        <input type="text" placeholder="Apellido">
-        <textarea name="" id="" cols="30" rows="10"></textarea>
-        <button class="Econsulta">Enviar consulta</button>
+    <form class="Formulario">
+        <input class="inputitem" type="text" name="nombre" placeholder="Nombre completo" maxlength="30" minlength="4" required>
+        <input class="inputitem type="email" placeholder="E-mail" maxlength="30" minlength="10" required>
+        <input class="inputitem type="tel" name="telefono" placeholder="Telefono 2478222222">
+        <textarea class="textarea" name="Message" id="" cols="30" rows="10"></textarea>
+        <input class="Enviar" type="submit" value="Enviar consulta" placeholder="Escribir consulta">
     </form>
-    </section>
     </div>
+    </section>
     </main>
 
-    <footer>
+    <footer class="footer">
         <div class="pie">
-            <img src="../multimedia/imagenes/logo.jpg" width="100" height="100" alt="logo de calavera con dos huesos cruzados">
-            <h4>skull grafica</h4>
+            <img class="logo" src="../multimedia/imagenes/logo.jpg" width="100" height="100" alt="logo de calavera con dos huesos cruzados">
             <nav class="pieMenu">
                 <ul class="pieMenuList">
-                <img src="../multimedia/imagenes/maps.jpg" width="30" height="30" alt="imagen google maps">
-                <li><a href="">Ubicacion</a></li>
-                <img class="redes" src="../multimedia/imagenes/redes.jpg" width="40" height="30" alt="logos de distintas redes sociales">
-                <li><a href="">Seguinos en nuestras redes</a></li>
-                <img class="cv" src="../multimedia/imagenes/cv.jpg" width="30" height="30" alt="hoja de vida en blanco">
-                <li><a href="">Te estamos buscando</a></li>
+                <li><a href=""><img src="../multimedia/imagenes/google-mapslogo.png" width="30" height="30" alt="imagen google maps"></a></li>
+                <h3>Ubicacion</h3>
+                <li><a href=""><img src="../multimedia/imagenes/social-medialogos.png" width="40" height="30" alt="logos de distintas redes sociales"></a></li>
+                <h3>Seguinos en nuestras redes</h3>
+                <li><a href=""><img src="../multimedia/imagenes/curriculum.png" width="30" height="30" alt="hoja de vida en blanco"></a></li>
+                <h3>Te estamos buscando</h3>
             </ul>
             </nav>
         </div>
-    </footer>
+        </footer>
 
 </body>
 </html>
